@@ -1,8 +1,8 @@
 # Bluetooth firmware
 vendor/firmware/bcm4358A0_V0033.0000.hcd
 vendor/firmware/bcm4358A0_V0033.0000_wisol.hcd
-vendor/firmware/bcm4358A1_V0054.0095.hcd
-vendor/firmware/bcm4358A1_V0054.0095_wisol.hcd
+vendor/firmware/bcm4358A1_V0051.0083.hcd
+vendor/firmware/bcm4358A1_V0051.0083_wisol.hcd
 lib/hw/bluetooth.default.so
 lib/libbluetooth_jni.so
 
