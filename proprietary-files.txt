@@ -6,15 +6,6 @@ vendor/firmware/bcm4358A1_V0051.0083_wisol.hcd
 lib/hw/bluetooth.default.so
 lib/libbluetooth_jni.so
 
-# GPS
-vendor/lib/hw/flp.default.so
-lib/libloc_api_v02.so
-vendor/lib/libgeofence.so
-vendor/lib/libizat_core.so
-vendor/lib/liblbs_core.so
-vendor/lib/liblocationservice.so
-vendor/lib/libulp2.so
-
 # NFC
 vendor/firmware/sec_s3fwrn5_firmware.bin
 
