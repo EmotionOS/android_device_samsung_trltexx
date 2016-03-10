@@ -1,46 +1,8 @@
 [
   {
-    "remote":"github",
+    "remote":"emotroid",
     "repository": "Emotroid-Rom/android_device_samsung_trlte-common",
     "target_path": "device/samsung/trlte-common",
-    "revision": "mm"
-  },
-  {
-    "remote":"github",
-    "repository": "Emotroid-Rom/android_device_samsung_trltexx",
-    "target_path": "device/samsung/trltexx",
-    "revision": "mm"
-  },
-  {
-    "remote":"github",
-    "repository": "Emotroid-Rom/proprietary_vendor_samsung",
-    "target_path": "vendor/samsung",
-    "revision": "mm"
-  },
-  {
-    "remote":"github",
-    "repository": "Emotroid-Rom/emotion_cm_kernel_trlte",
-    "target_path": "kernel/samsung/trlte",
-    "revision": "cm-13.0"
-  },
-  {
-    "repository": "CyanogenMod/android_hardware_samsung",
-    "target_path": "hardware/samsung"
-  },
-  {
-    "repository": "CyanogenMod/android_device_samsung_qcom-common",
-    "target_path": "device/samsung/qcom-common"
-  },
-  {
-    "repository": "CyanogenMod/android_device_qcom_common",
-    "target_path": "device/qcom/common"
-  },
-  {
-    "repository": "CyanogenMod/android_external_stlport",
-    "target_path": "external/stlport"
-  },
-  {
-    "repository": "CyanogenMod/android_external_connectivity",
-    "target_path": "external/connectivity"
-  }  
+    "branch": "mm"
+  }
 ]
