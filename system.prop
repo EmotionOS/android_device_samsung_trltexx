@@ -5,3 +5,10 @@ ro.ril.telephony.mqanelements=6
 
 # Temporary:  REMOVE THIS FINGERPRINT LINE ONCE IT GETS BUILT IN
 ro.build.fingerprint=samsung/trltexx/trltexx:6.0.1/MHC19J/N910FXXU1COL2:user/release-keys
+
+# Temporary - Moar logcats at boot!
+ro.secure=0
+ro.adb.secure=0
+persist.service.adb.enable=1
+persist.service.debuggable=1
+persist.sys.usb.config=mtp,adb
