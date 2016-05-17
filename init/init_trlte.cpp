@@ -70,8 +70,8 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
         gsm_properties();
     } else {
         /* trltexx */
-        property_set("ro.build.fingerprint", "samsung/trltexx/trltexx:6.0.1/MHC19J/N910FXXU1COL2:user/release-keys");
-        property_set("ro.build.description", "trltexx-user 6.0.1 MHC19J N910FXXU1COL2 release-keys");
+        property_set("ro.build.fingerprint", "samsung/trltexx/trlte:6.0.1/MMB29M/N910FXXU1DPD3:user/test-keys");
+        property_set("ro.build.description", "trltexx-user 6.0.1 MMB29M N910FXXU1DPD3 release-keys");
         property_set("ro.product.model", "SM-N910F");
         property_set("ro.product.device", "trltexx");
         gsm_properties();
