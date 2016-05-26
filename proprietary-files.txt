@@ -1,23 +1,10 @@
-# Bluetooth firmware
-vendor/firmware/bcm4358A0_V0033.0000.hcd
-vendor/firmware/bcm4358A0_V0033.0000_wisol.hcd
-vendor/firmware/bcm4358A1_V0051.0083.hcd
-vendor/firmware/bcm4358A1_V0051.0083_wisol.hcd
-lib/hw/bluetooth.default.so
-lib/libbluetooth_jni.so
-
-# NFC
-vendor/firmware/sec_s3fwrn5_firmware.bin
-
 # Qualcomm framework
 vendor/lib/libmdmdetect.so
-vendor/lib/libperipheral_client.so
 vendor/lib/libconfigdb.so
 vendor/lib/libdiag.so
 vendor/lib/libdsutils.so
 vendor/lib/libidl.so
 vendor/lib/libnetmgr.so
-vendor/lib/libqcci_legacy.so
 vendor/lib/libqmi.so
 vendor/lib/libqmi_cci.so
 vendor/lib/libqmi_client_qmux.so
@@ -25,6 +12,24 @@ vendor/lib/libqmi_common_so.so
 vendor/lib/libqmi_csi.so
 vendor/lib/libqmi_encdec.so
 vendor/lib/libqmiservices.so
+vendor/lib/libflp.so
+vendor/lib/libdataitems.so
+vendor/lib/liblowi_client.so
+lib/libagc_max.so
+lib/libqservice.so
+lib/libtinyxml.so
+lib/libqdutils.so
+lib/libjpegehw.so
+lib/libjpegdhw.so
+lib/libedmnativehelper.so
+lib/libbt-iopdb.so
+lib/libbt-iopdb_mod.so
+lib/libbt-vendor.so
+lib/libbt-codec_aptx.so
+lib/libbt-aptX-ARM-4.2.2.so
+lib/libbt-codec_sshd.so
+lib/libshdace.so
+lib/libprotobuf-cpp-full.so
 
 # Radio
 bin/efsks
