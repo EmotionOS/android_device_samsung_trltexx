@@ -1,5 +1,5 @@
 /*
-   Copyright (c) 2013, The Linux Foundation. All rights reserved.
+   Copyright (c) 2016, The Linux Foundation. All rights reserved.
 
    Redistribution and use in source and binary forms, with or without
    modification, are permitted provided that the following conditions are
@@ -28,10 +28,11 @@
  */
 
 #include <stdlib.h>
+#include <unistd.h>
 #include <stdio.h>
 
+#include <cutils/properties.h>
 #include "vendor_init.h"
-#include "property_service.h"
 #include "log.h"
 #include "util.h"
 #include <sys/system_properties.h>
@@ -51,11 +52,11 @@ void init_variant_properties() {
     char devicename[PROP_VALUE_MAX];
     int rc;
 
-    rc = property_get("ro.board.platform", platform);
+    rc = property_get("ro.board.platform", platform, NULL);
     if (!rc || !ISMATCH(platform, ANDROID_TARGET))
         return;
 
-    property_get("ro.bootloader", bootloader);
+    property_get("ro.bootloader", bootloader, NULL);
 
     if (strstr(bootloader, "N910G")) {
         /* trltedt These values are taken from trltexx and edited for the 910G FIXME */
@@ -73,7 +74,7 @@ void init_variant_properties() {
         gsm_properties();
     }
 
-    property_get("ro.product.device", device);
+    property_get("ro.product.device", device, NULL);
     strlcpy(devicename, device, sizeof(devicename));
     INFO("Found bootloader id %s setting build properties for %s device\n", bootloader, devicename);
 }
