@@ -46,7 +46,6 @@ bin/rmnetcli
 lib/libreference-ril.so
 lib/libril.so
 lib/librmnetctl.so
-lib/libsec-ril.so
+lib/librilutils.so
 lib/libsecnativefeature.so
-lib/libsecril-client.so
 vendor/lib/libril-qcril-hook-oem.so
