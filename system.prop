@@ -1,14 +1,17 @@
-# Radio
-rild.libargs=-d /dev/smd0
-rild.libpath=/system/lib/libsec-ril.so
-ro.ril.telephony.mqanelements=6
-
-# Temporary:  REMOVE THIS FINGERPRINT LINE ONCE IT GETS BUILT IN
-ro.build.fingerprint=samsung/trltexx/trlte:6.0.1/MMB29M/N910FXXU1DPD3:user/test-keys
-
 # Temporary - Moar logcats at boot!
 ro.secure=0
 ro.adb.secure=0
 persist.service.adb.enable=1
 persist.service.debuggable=1
 persist.sys.usb.config=mtp,adb
+
+# Radio
+ro.ril.telephony.mqanelements=6
+telephony.lteOnGsmDevice=1
+ro.telephony.default_network=9
+telephony.lteOnCdmaDevice=0
+ro.telephony.call_ring.multiple=0
+ril.subscription.types=NV,RUIM
+rild.libargs=-d /dev/smd0
+rild.libpath=/vendor/lib/libril-qc-qmi-1.so
+persist.radio.do_not_init_csvt=1
