@@ -52,8 +52,6 @@ bin/mdm_helper_proxy
 bin/netmgrd
 bin/qcks
 bin/qmuxd
-bin/rmnetcli
 lib/libsecnativefeature.so
-vendor/lib/librmnetctl.so
 vendor/lib/libril-qc-qmi-1.so
 vendor/lib/libril-qcril-hook-oem.so
